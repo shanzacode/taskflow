@@ -688,4 +688,14 @@ body.dark-theme .testimonial-card h4 {
 .slide.active {
     opacity: 1;
 }
-
+@media (max-width: 768px) {
+    /* Mobile screen par navbar ka 'Get Started' button hide kar dein taaki jagah ban jaye */
+    .nav-right .nav-btn {
+        display: none;
+    }
+    
+    /* Navbar elements ke darmiyan spacing theek karne ke liye */
+    .nav-container {
+        padding: 0 15px;
+    }
+}
